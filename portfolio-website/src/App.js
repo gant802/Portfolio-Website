@@ -1,12 +1,17 @@
-import './App.css';
+import './CSS/Home.css';
+import './CSS/nav-pages.css';
 import { Outlet } from 'react-router-dom';
 import React from 'react';
+import NavBar from './Components/navbar';
+
+
 
 function App() {
-  console.log("Hello World")
-  
   return (
+    <>
+    <NavBar/>
     <Outlet/>
+    </>
   );
 }
 
