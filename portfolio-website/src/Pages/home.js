@@ -10,17 +10,17 @@ import 'boxicons'
 
 
 function Home() {
-    
+
 
     return (
-        <div id="home-container"> 
+        <div id="home-container">
             <div id="intro-container">
                 <div id="intro-left-side">
-                   <img src="https://st3.depositphotos.com/9998432/13335/v/450/depositphotos_133352010-stock-illustration-default-placeholder-man-and-woman.jpg" alt="Picture of me"/>
-                   <box-icon type='logo' name='linkedin-square'></box-icon>
-                   <box-icon name='medium' type='logo' ></box-icon>
-                   <box-icon name='github' type='logo' ></box-icon>
-                   <box-icon type='logo' name='instagram-alt'></box-icon>
+                    <img src="https://st3.depositphotos.com/9998432/13335/v/450/depositphotos_133352010-stock-illustration-default-placeholder-man-and-woman.jpg" alt="Picture of me" />
+                    <a href="https://www.linkedin.com/in/grant-r-cummings" rel="noopener" target="_blank"><box-icon type='logo' name='linkedin-square'></box-icon></a>
+                    <a href="https://medium.com/@grantcummings4429" rel="noopener" target="_blank"><box-icon name='medium' type='logo' ></box-icon></a>
+                    <a href="https://github.com/gant802" rel="noopener" target="_blank"><box-icon name='github' type='logo' ></box-icon></a>
+                    <a href="https://www.instagram.com/gant802/" rel="noopener" target="_blank"><box-icon type='logo' name='instagram-alt'></box-icon></a>
                 </div>
                 <div id="intro-right-side">
                     <h2>Write some text here to briefly introduce me</h2>
