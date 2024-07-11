@@ -5,11 +5,21 @@ import BlogComponent from "../Components/blogComponent";
 import WhyMe from "../Components/whyWorkWithMe";
 import Footer from "../Components/footer";
 import 'boxicons'
+import { useEffect } from "react";
 
 
 
 
 function Home() {
+
+    //! Example for my final project API
+    // useEffect(() => {
+    //     fetch('https://api.api-ninjas.com/v1/exercises?muscle=biceps', {
+    //         headers: { 'X-Api-Key': 'bMxQSkd43Sy3FQYD50efrg==XxNceF4LNlS0s0LS'}
+    //     })
+    //     .then(res=>res.json())
+    //     .then(data=>console.log(data))
+    // },[])
 
 
     return (
